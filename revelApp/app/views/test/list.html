@@ -1,0 +1,35 @@
+fucking Test.List
+{{if .results}}
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Address</th>
+      <th>City, State</th>
+      <th width="8%">Zip</th>
+      <th width="13%">Action</th>
+    </tr>
+  </thead>
+  <tbody>
+    {{range .results}}
+    <tr>
+      <td>{{.Name}}</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>
+        <a href="">View Hotel</a>
+      </td>
+    </tr>
+    {{end}}
+  </tbody>
+</table>
+<p>
+  <a id="nextPage" href="">More results</a>
+</p>
+
+{{else}}
+<p>
+  No more results
+</p>
+{{end}}
