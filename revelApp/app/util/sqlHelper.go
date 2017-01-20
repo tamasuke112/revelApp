@@ -3,7 +3,6 @@ package util
 import (
         "io/ioutil"
         "fmt"
-		//"path/filepath"
 )
 
 func GetSql(sqlId string) string{

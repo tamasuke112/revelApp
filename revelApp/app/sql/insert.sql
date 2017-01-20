@@ -5,4 +5,4 @@ INSERT INTO goTest
 VALUES
 (
 	?
-);
+)
